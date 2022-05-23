@@ -1,5 +1,8 @@
 package seedling;
 
+import lombok.Getter;
+
+@Getter
 public class Branch extends BranchGenerator {
     private int branch_id;
     private boolean hasLeafs;

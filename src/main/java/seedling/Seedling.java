@@ -1,10 +1,12 @@
 package seedling;
 
 import exceptions.TreeDidNotGrowException;
+import lombok.Getter;
 
 import java.util.List;
 import java.util.Random;
 
+@Getter
 public abstract class Seedling {
     protected List<Branch> branches;
     protected Leaf leaf;
